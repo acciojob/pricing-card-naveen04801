@@ -1,1 +1,71 @@
 /*  your css code here. If applicable */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #ffffff;
+}
+
+/* 1. Card */
+.card {
+  width: 320px;
+  padding: 20px 20px 28px;
+  background-color: #eeeeee;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+  text-align: center;
+}
+
+/* 2. Image */
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+/* 3. Title */
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 18px 0 14px;
+  color: #111111;
+}
+
+/* 4 & 5. Pricing info + description */
+.price {
+  font-size: 1.25rem;
+  margin: 0 0 4px;
+  color: #222222;
+}
+
+.description {
+  font-size: 1.25rem;
+  line-height: 1.35;
+  margin: 0 0 20px;
+  color: #222222;
+}
+
+/* 6. Buy Now button */
+.buy-btn {
+  padding: 16px 20px;
+  background-color: #f4776b;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: #ef6156;
+}
